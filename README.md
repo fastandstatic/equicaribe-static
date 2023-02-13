@@ -1,0 +1,1 @@
+# equicaribe-static
