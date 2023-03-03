@@ -69,7 +69,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 
 		</div>
 	</div>
-<div class="boc_spacing " style="height: 20px"></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="img_carousel_holder  owl_side_arrows">	<div class="img_carousel mfp_gallery" id="img_carousel_2208" style="opacity:0;"><div class="img_carousel_item boc_owl_lazy">	<div class="pic ">
+<div class="boc_spacing " style="height: 20px"></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="img_carousel_holder  owl_side_arrows">	<div class="img_carousel mfp_gallery" id="img_carousel_1504" style="opacity:0;"><div class="img_carousel_item boc_owl_lazy">	<div class="pic ">
 								<a href="" class="mfp_popup_gal"  target="_self">
 									<img src="" alt="" />
 								</a>
@@ -96,7 +96,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 
 						jQuery(document).ready(function($) {
 							
-							var carousel = jQuery("#img_carousel_2208");
+							var carousel = jQuery("#img_carousel_1504");
 							
 							var args = {
 									items: 				2,
@@ -123,7 +123,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 										  items:2
 										}
 									},
-									onInitialized: showCarousel_2208
+									onInitialized: showCarousel_1504
 							};
 							
 							carousel.owlCarousel(args);
@@ -140,9 +140,9 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 							});
 							
 							/* Show once loaded */
-							function showCarousel_2208() {
+							function showCarousel_1504() {
 								carousel.fadeTo(0,1);
-								$("#img_carousel_2208 .owl-item .boc_owl_lazy").css("opacity","1");
+								$("#img_carousel_1504 .owl-item .boc_owl_lazy").css("opacity","1");
 							}
 						});
 						
@@ -173,7 +173,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 
 		</div>
 	</div>
-<div class="boc_spacing " style="height: 20px"></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="img_carousel_holder  owl_side_arrows">	<div class="img_carousel mfp_gallery" id="img_carousel_4372" style="opacity:0;"><div class="img_carousel_item boc_owl_lazy">	<div class="pic ">
+<div class="boc_spacing " style="height: 20px"></div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="img_carousel_holder  owl_side_arrows">	<div class="img_carousel mfp_gallery" id="img_carousel_4702" style="opacity:0;"><div class="img_carousel_item boc_owl_lazy">	<div class="pic ">
 								<a href="/wp-content/uploads/2018/03/WhatsApp-Image-2018-03-26-at-11.20.47-AM-1.jpeg" class="mfp_popup_gal"  target="_self">
 									<img src="/wp-content/uploads/2018/03/WhatsApp-Image-2018-03-26-at-11.20.47-AM-1.jpeg" alt="" />
 								</a>
@@ -200,7 +200,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 
 						jQuery(document).ready(function($) {
 							
-							var carousel = jQuery("#img_carousel_4372");
+							var carousel = jQuery("#img_carousel_4702");
 							
 							var args = {
 									items: 				2,
@@ -227,7 +227,7 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 										  items:2
 										}
 									},
-									onInitialized: showCarousel_4372
+									onInitialized: showCarousel_4702
 							};
 							
 							carousel.owlCarousel(args);
@@ -244,9 +244,9 @@ Nuestra prioridad es su total satisfacción y nuestra experiencia es la mejor ga
 							});
 							
 							/* Show once loaded */
-							function showCarousel_4372() {
+							function showCarousel_4702() {
 								carousel.fadeTo(0,1);
-								$("#img_carousel_4372 .owl-item .boc_owl_lazy").css("opacity","1");
+								$("#img_carousel_4702 .owl-item .boc_owl_lazy").css("opacity","1");
 							}
 						});
 						
