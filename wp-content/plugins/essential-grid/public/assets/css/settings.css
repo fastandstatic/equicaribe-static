@@ -119,6 +119,22 @@ website:   	http://www.themepunch.com
 	margin-right: 10px;
 }
 
+.esg-margin-15 {
+	margin: 15px;
+}
+.esg-margin-t-15 {
+	margin-top: 15px;
+}
+.esg-margin-b-15 {
+	margin-bottom: 15px;
+}
+.esg-margin-l-15 {
+	margin-left: 15px;
+}
+.esg-margin-r-15 {
+	margin-right: 15px;
+}
+
 .esg-padding-0 {
 	padding: 0;
 }
@@ -164,12 +180,19 @@ website:   	http://www.themepunch.com
 .esg-color-black {
 	color: #000000;
 }
-.esg-color-green {
-	color: green;
+.esg-color-white {
+	color: #ffffff;
 }
 .esg-color-red {
 	color: red;
 }
+.esg-color-green {
+	color: green;
+}
+.esg-color-blue {
+	color: blue;
+}
+
 
 .esg-w100-hauto {
 	width: 100%;
@@ -1636,16 +1659,12 @@ Blur and Grayscale filters
 	content: "";
 }
 
-.esg-anime-blur .esg-entry-media {
-	transform: scale(1.15, 1.15) !important;
-	transform-origin: center center !important
-}
-
 /* 2.2 */
 .eg-invisiblebutton {
 	box-shadow: none !important;
 	height: inherit !important;
 	display: block !important;
+	font-size: 0;
 }
 .esg-media-cover-wrapper > .eg-invisiblebutton {
 	position: absolute;
@@ -2040,10 +2059,8 @@ Blur and Grayscale filters
 	mix-blend-mode: luminosity
 }
 
-/* No Filters and Search in Streams, NextGen, ML */
-.source_type_stream .esg-filter-wrapper,
-.source_type_nextgen .esg-filter-wrapper,
-.source_type_rml .esg-filter-wrapper {
+/* No Filters and Search in Streams */
+.source_type_stream .esg-filter-wrapper {
 	display: none !important;
 }
 
