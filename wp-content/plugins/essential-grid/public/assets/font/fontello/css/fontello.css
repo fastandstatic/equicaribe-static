@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'eg-font';
-  src: url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.eot?40874225');
-  src: url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.eot?40874225#iefix') format('embedded-opentype'),
-       url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.woff2?40874225') format('woff2'),
-       url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.woff?40874225') format('woff'),
-       url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.ttf?40874225') format('truetype'),
-       url('/wp-content/plugins/essential-grid/public/assets/font/fontello/fonts/egfont.svg?40874225#egfont') format('svg');
+  src: url('./../fonts/egfont.eot?40874225');
+  src: url('./../fonts/egfont.eot?40874225#iefix') format('embedded-opentype'),
+       url('./../fonts/egfont.woff2?40874225') format('woff2'),
+       url('./../fonts/egfont.woff?40874225') format('woff'),
+       url('./../fonts/egfont.ttf?40874225') format('truetype'),
+       url('./../fonts/egfont.svg?40874225#egfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'egfont';
-    src: url('/wp-content/plugins/essential-grid/public/assets/font/fontello/font/egfont.svg?40874225#egfont') format('svg');
+    src: url('./../font/egfont.svg?40874225#egfont') format('svg');
   }
 }
 */
